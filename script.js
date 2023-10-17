@@ -85,6 +85,9 @@ if (isMale) {
 }
 console.log(gender);
 
+isMale ? gender = "Male" : gender = "Female"
+console.log(gender);
+
 // ex facoltativo 5
 for (let k = 1; k <= 100; k++) {
     if (k % 3 === 0 && k % 5 === 0) {
